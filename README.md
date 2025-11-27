@@ -11,9 +11,26 @@ A modern and intuitive Todo Management Web Application built with React, Tailwin
 
 ### Todos Page
 Manage your daily tasks with an intuitive interface featuring search, filters, and quick actions.
+Users can create, edit, view details, complete, or delete todo items directly from this page.
+Todo details include category, priority, creation date, and due date for better task organization.
+![Todos Page](./screenshots/todos_page.png)
+![Todos Page](./screenshots/todos_add.png)
+![Todos Page](./screenshots/todos_edit.png)
+![Todos Page](./screenshots/todos_delete.png)
+![Todos Page](./screenshots/todos_detail.png)
+![Todos Page](./screenshots/todos_detail.png)
+![Todos Page](./screenshots/todos_complete.png)
+
 
 ### Categories Page
 Organize your todos with color-coded categories, complete with creation dates and management controls.
+Users can create, edit, or delete categories directly from this page.
+If a category still contains associated todo items, deleting it will result in an error to prevent accidental data loss.
+![Categories Page](./screenshots/categories_page.png)
+![Categories Page](./screenshots/categories_add.png)
+![Categories Page](./screenshots/categories_edit.png)
+![Categories Page](./screenshots/categories_delete.png)
+
 
 ### Modal Interfaces
 - **Create/Edit Todo**: Full-featured form with title, description, category, priority, and due date
@@ -65,7 +82,6 @@ Organize your todos with color-coded categories, complete with creation dates an
 | **Redux Toolkit** | Primary state management solution |
 | **Redux Persist** | Persist Redux state to avoid unnecessary refetching |
 | **Axios** | HTTP client for API requests |
-| **React Router DOM** | Client-side routing and navigation |
 
 ## 📦 Installation
 
@@ -452,13 +468,6 @@ api.interceptors.response.use(
 - **Accessibility**: Keyboard navigation and screen reader support
 - **Responsiveness**: Works seamlessly on all device sizes
 
-## 🧪 Testing Strategy
-
-- Unit tests for Redux reducers
-- Component tests using React Testing Library
-- Integration tests for user flows
-- E2E tests for critical paths
-
 ## 🚀 Deployment
 
 ### Build for Production
@@ -481,23 +490,6 @@ npm run build
 - Debounced search inputs
 - Virtual scrolling for large lists (if needed)
 
-## 🐛 Known Issues & Limitations
-
-- Maximum 1000 todos per category (API limitation)
-- Offline mode not yet implemented
-- File attachments not supported in current version
-
-## 🗺️ Roadmap
-
-- [ ] Offline support with Service Workers
-- [ ] File attachments for todos
-- [ ] Recurring todos
-- [ ] Collaborative features (shared todos)
-- [ ] Mobile native app (React Native)
-- [ ] Dark mode theme
-- [ ] Export/Import functionality
-- [ ] Calendar view
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -517,9 +509,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Country Konoha**
 
 - Open for collaboration & code reviews
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [@countrykonoha](https://github.com/countrykonoha)
+- LinkedIn: https://www.linkedin.com/in/raihan-malay-643835322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- GitHub: https://github.com/RaihanMalay21
 
 ## 🙏 Acknowledgments
 
@@ -533,8 +524,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or issues:
 - Open an issue on GitHub
-- Email: [your-email@example.com]
-- Discord: [Your Discord Server]
+- Email: raihanmalay14@gmail.com
 
 ---
 
