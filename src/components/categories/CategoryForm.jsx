@@ -25,8 +25,6 @@ export const CategoryForm = ({ category, onSubmit, onCancel, loading, serverErro
     if (serverErrors && Array.isArray(serverErrors.errFields)) {
       const newErrors = {};
       serverErrors.errFields.forEach(fieldError => {
-        // Backend mengirim object dengan key sebagai field name (bukan property 'field')
-        // Contoh: {Name: 'error message'} atau {Color: 'error message'}
         if (fieldError && typeof fieldError === 'object') {
           Object.keys(fieldError).forEach(key => {
             if (key && typeof key === 'string') {

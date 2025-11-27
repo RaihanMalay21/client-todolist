@@ -158,26 +158,21 @@ src/
 │   │   └── Loading.jsx
 │   └── todos/               # Todo-related components
 │       ├── TodoCard.jsx
-│       ├── TodoForm.jsx
-│       ├── TodoList.jsx
-│       └── TodoFilters.jsx
+│       ├── TodoDetailPage.jsx
+│       └── TodoForm.jsx
 │
 ├── pages/                   # Route pages
 │   ├── TodosPage.jsx
-│   ├── CategoriesPage.jsx
-│   └── TodoDetailPage.jsx
+│   └── CategoriesPage.jsx
 │
 ├── redux/                   # State management
 │   ├── store.js
 │   ├── slices/
 │   │   ├── todosSlice.js
-│   │   └── categoriesSlice.js
-│   └── middleware/
-│
-├── services/                # API integration
-│   ├── api.js
-│   ├── todoService.js
-│   └── categoryService.js
+│   │   └── todoThunk.js
+│   └── categories/
+│       ├── categoriesSlice.js
+│       └── categoryThunk.js
 │
 ├── utils/                   # Helpers & constants
 │   ├── constants.js
